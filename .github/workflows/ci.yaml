@@ -3,10 +3,10 @@ name: CI - Train and Save the model
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
     train_and_save_model:
