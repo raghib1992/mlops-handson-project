@@ -32,7 +32,7 @@ jobs:
     
         - name: Train the model
           run: |
-            python train_model.py
+            python train.py
             ls -la artifacts/
 
         - name: Save the model artifact
