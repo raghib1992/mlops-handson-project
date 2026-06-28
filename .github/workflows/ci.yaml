@@ -38,4 +38,5 @@ jobs:
         - name: Save the model artifact
           uses: actions/upload-artifact@v7
           with:
-            path: ml-artifacts-${{ matrix.python-version }}-${{ github.run_id }}
+            name: ml-artifacts-${{ matrix.python-version }}-${{ github.run_id }}
+            path: artifacts/
